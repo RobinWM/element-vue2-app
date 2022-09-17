@@ -5,7 +5,7 @@
         <el-table-column prop="behind" label="前列" width="180"/>
       </span>
       <span slot="before">
-        <el-table-column prop="before" label="后列" width="180"/>
+        <el-table-column fixed="right" prop="before" label="后列" width="180"/>
       </span>
     </RBTable>
   </div>
