@@ -1,11 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './plugins/element.js'
-
-import RBComponents from 'rb-components-vue'
-import 'rb-components-vue/lib/rb-components-vue.css'
-
-Vue.use(RBComponents)
+import '@plugins/element'
+import '@plugins/rbComponents'
 
 Vue.config.productionTip = false
 
